@@ -1,0 +1,765 @@
+body{
+    background-color: #FFF6BA; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 20px;          
+    padding: 0 5%;             
+    min-height: 270px; 
+    background-color: #FFF6BA; 
+}
+
+header h1{
+    order:1;
+}
+
+h1{
+    color: #DB9723;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0;
+    line-height: 1.1; 
+
+}    
+
+header h1 span {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-transform: lowercase;
+    color: #8b5e28;
+    margin-top: 14px;
+}
+
+
+p{
+    color:peru
+}
+
+.parrafo_con_color{
+    color:#000000
+}
+
+
+
+
+.hero_showroom{   
+   min-height: 500px;
+    max-width: 2000px;
+    margin: 0 auto;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("https://i.pinimg.com/736x/c9/eb/db/c9ebdbb6a4470c1a8542bc03c25c20eb.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.contenido_central{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    
+}
+
+
+.contenido_central h1{
+    order: 1;
+    margin: 0;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    font-weight: 100;
+    letter-spacing: 8px;
+
+    
+}
+
+.contenido_central span{
+    display: block;
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+
+
+.btn_catalogos{
+    order: 2;
+    display: block;
+    margin: 35px auto 0;
+    background-color: #c5a059; 
+    color: white;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 25px;
+    text-transform: lowercase; 
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn_comprar {
+    background-color: #b08d31;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn_coleccion {
+    position: absolute;
+    right: 130px;
+    bottom: 0;
+    background-color: #3f3f3f;
+    color: white;
+    padding: 22px 50px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.25);
+}
+
+
+
+.angel_img{  
+    order: 2;   
+    display: flex;
+    justify-content:flex-end; 
+    align-items: center;     
+}
+
+.angel_img img {
+    width: auto;           
+    height: 200px;           
+    transition:0.3s ease;
+    position: relative;
+    top: -10px;
+}
+
+.nav_menu {
+    order: 3;
+}
+
+.nav_links{
+    display: flex;
+    list-style: none;
+    gap: 20px;  
+    padding: 0;
+    margin: 0;                 
+}
+
+.nav_links li{
+    display: inline-block;
+}
+
+
+.nav_links a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.search_bar input {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background: transparent;
+}
+
+
+
+.google_fonts{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.productos_destacados{ 
+    background-color: #f6e896; 
+    background-image: url(../img/pngegg.png); 
+    padding: 50px 20px; text-align: center; } .productos_destacados h2 { 
+    display: flex; justify-content: flex-start; 
+    padding-left: 50px; 
+    background-color: rgba(246, 232, 150, 0.8); 
+    padding: 10px 40px; 
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+    font-size: 2.90rem; 
+    margin-bottom: 40px; 
+    letter-spacing: 2px; 
+} 
+
+.contenedor_padre{ 
+    background-color:rgb(224, 211, 151) ; 
+    display: flex ; 
+    height: 650px; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 30px; 
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+} 
+
+.card{ 
+    background-color:gray; 
+    width: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    height: 300px; 
+    border-radius: 2px; 
+    border: 2px solid ; 
+    text-align: center; 
+    padding: 10px; 
+    margin: 10px; 
+} 
+
+.nuestro_estilo{
+    background-color: #e9e0ad; 
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.nuestro_estilo h2{
+    display: flex;
+    justify-content: flex-start; 
+    padding-left: 50px; 
+    background-color: rgb(224, 211, 151);
+    padding: 10px 40px; 
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    font-size: 2.90rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.texto_nueva_coleccion {
+   position: absolute;
+    top: 25px;
+    right: 35px;
+    margin: 0;
+    color: #b08d31;
+    font-size: 1.30rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.imagen_marco { 
+    border: 8px solid #b5b9d1; 
+    background-color: white; 
+    padding: 10px; 
+    margin-bottom: 15px;
+}
+
+.imagen_marco img { 
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+} 
+
+.info_producto { 
+    margin-top: 20px; 
+    text-align: left; 
+    width: 100%; 
+} 
+
+.nombre{ 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+    color: #b08d31; 
+    font-size: 0.9rem; 
+    margin: 0; 
+} 
+
+.precio{ 
+    font-size: 1.1rem; 
+    margin: 5px 0; 
+}
+
+
+
+.contenedor_padre2{
+    position: relative;
+    background-color:rgb(242, 240, 234) ;
+    display: flex;
+    height: 650px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card_b{
+    background-color: rgb(242, 240, 234);
+    width: 200px;
+    border: 1px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.card_img{
+   width: 200px; 
+   border: 1px;
+   height: 250px;
+}
+
+
+.seccion_esencia {
+    background-color: #9b6f24;
+    color: #fff6ba;
+    padding: 70px 8%;
+    min-height: 620px;
+}
+
+.esencia_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.esencia_header h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: 14px;
+    margin: 0;
+    text-shadow: 2px 2px 0 #4a4a4a;
+}
+
+.marca_esencia {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.marca_esencia span {
+    display: block;
+    width: 230px;
+    height: 3px;
+    background-color: #fff6ba;
+}
+
+.marca_esencia p {
+    color: #fff6ba;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.collage_esencia {
+    position: relative;
+    max-width: 980px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.img_esencia {
+    position: absolute;
+    object-fit: cover;
+    border: 5px solid #3f3f3f;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.35);
+}
+
+.img_uno {
+    width: 270px;
+    height: 170px;
+    left: 180px;
+    top: 40px;
+}
+
+.img_dos {
+    width: 490px;
+    height: 300px;
+    right: 0;
+    top: 15px;
+}
+
+.img_tres {
+    width: 310px;
+    height: 195px;
+    left: 45px;
+    bottom: 0;
+}
+
+.texto_verano {
+    position: absolute;
+    left: 85px;
+    top: 150px;
+    color: #fff6ba;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+.texto_looks {
+    position: absolute;
+    left: 365px;
+    bottom: 115px;
+    color: #fff6ba;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+.footer_contacto {
+    background-color: #FFF6BA;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.35fr;
+    gap: 35px;
+    padding: 65px 7%;
+    color: #b86a36;
+    position: relative;
+    min-height: 620px;
+}
+
+.contacto_izquierda {
+    position: relative;
+}
+
+.contacto_marca {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 25px;
+}
+
+.contacto_marca h3 {
+    font-size: 1rem;
+    line-height: 1.1;
+    margin: 0;
+    color: #b86a36;
+}
+
+.contacto_marca img {
+    width: 90px;
+    height: auto;
+}
+
+.contacto_izquierda h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0 0 8px;
+    color: #b86a36;
+}
+
+.img_contacto_principal {
+    width: 290px;
+    height: 355px;
+    object-fit: cover;
+}
+
+.contacto_centro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.contacto_centro img {
+    width: 340px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.contacto_derecha {
+    position: relative;
+    padding-top: 20px;
+}
+
+.envios {
+    padding-left: 30px;
+    min-height: 170px;
+}
+
+.envios h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0 0 25px;
+    color: #b86a36;
+}
+
+.envios ul {
+    margin: 0;
+    padding-left: 25px;
+}
+
+.envios li {
+    display: list-item;
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    color: #b86a36;
+}
+
+.franja_animal {
+    height: 45px;
+    margin: 10px -7vw 18px 0;
+    background-color: #e7c68c;
+    background-image: url("../img/pngegg.png");
+    background-size: 170px;
+    background-repeat: repeat;
+}
+
+.datos_contacto {
+    padding-left: 30px;
+}
+
+.datos_contacto h4 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 22px 0 4px;
+    color: #b86a36;
+}
+
+.datos_contacto p {
+    margin: 0;
+    color: #b86a36;
+}
+
+.usuario_contacto {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    color: #b86a36;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media screen and ( max-width:740px) {
+   header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 5%;
+        min-height: auto;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+
+    .angel_img {
+        justify-content: center;
+        order: 1;
+    }
+
+    .angel_img img {
+        height: 120px;
+    }
+
+    .nav_menu {
+        width: 100%;
+        order: 3;
+    }
+
+    .search_bar input {
+        width: 80%;
+        max-width: 260px;
+        margin-bottom: 15px;
+    }
+
+    .nav_links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero_showroom {
+        min-height: 400px;
+        padding: 40px 20px;
+    }
+
+    .contenido_central h1 {
+        font-size: 2.3rem;
+        letter-spacing: 3px;
+    }
+
+    .contenido_central span {
+        font-size: 2.7rem;
+    }
+
+    .btn_catalogos {
+        margin: 30px auto 0;
+    }
+
+    .productos_destacados,
+    .nuestro_estilo {
+        padding: 40px 15px;
+        overflow: hidden;
+    }
+
+    .productos_destacados h2,
+    .nuestro_estilo h2 {
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contenedor_padre,
+    .contenedor_padre2 {
+        height: auto;
+        max-width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 25px;
+        padding: 55px 0 25px;
+    }
+
+    .card,
+    .card_b {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .imagen_marco img,
+    .card_img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+    }
+
+    .texto_nueva_coleccion {
+        top: 22px;
+        right: 50%;
+        transform: translateX(50%);
+        white-space: nowrap;
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+    }
+
+    .seccion_esencia {
+        padding: 45px 20px;
+        min-height: auto;
+    }
+
+    .esencia_header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .esencia_header h2 {
+        font-size: 2.4rem;
+        letter-spacing: 7px;
+    }
+
+    .marca_esencia {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .marca_esencia span {
+        width: 120px;
+    }
+
+    .collage_esencia {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-top: 25px;
+    }
+
+    .img_esencia,
+    .texto_verano,
+    .texto_looks,
+    .btn_coleccion {
+        position: static;
+    }
+
+    .img_esencia {
+        width: 100%;
+        height: 260px;
+    }
+
+    .texto_verano,
+    .texto_looks {
+        text-align: left;
+        margin: 0;
+    }
+
+    .btn_coleccion {
+        width: fit-content;
+        margin: 10px auto 0;
+        padding: 16px 38px;
+    }
+
+    .footer_contacto {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 45px 20px;
+        min-height: auto;
+        text-align: center;
+    }
+
+    .contacto_marca {
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .contacto_izquierda h2 {
+        font-size: 2.2rem;
+    }
+
+    .img_contacto_principal,
+    .contacto_centro img {
+        width: 100%;
+        max-width: 320px;
+        height: 340px;
+    }
+
+    .envios,
+    .datos_contacto {
+        padding-left: 0;
+    }
+
+    .envios ul {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .franja_animal {
+        margin: 20px -20px;
+    }
+
+    .usuario_contacto {
+        position: static;
+        margin-top: 30px;
+    }
+}
+
